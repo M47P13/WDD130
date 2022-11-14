@@ -56,14 +56,6 @@ a:hover:before {
   transform: scaleX(1);
 }
 
-a:link, nav a:unvisited {
-  color: rgb(0, 0, 0);
-}
-
-a:link, nav a:visited {
-  color: #ffffff;
-}
-
 #menu-link {
   display: none;
 }
