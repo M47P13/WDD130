@@ -37,13 +37,13 @@ body{
 }
 
 header{
-    background-color: rgba(49, 80, 26, 0.7);
+    background-color: #31501ab3;
     display: grid;
     grid-template-columns: 150px auto;
 
 }
 nav a:hover{
-    background-color: rgb(245, 236, 236);
+    background-color: #f5ecec;
     color: #e2760a;
     padding: 35px;
 
@@ -59,14 +59,14 @@ nav a:hover{
 
 }
 .book:hover, .join:hover{
-    background-color: rgb(243, 181, 106);
+    background-color: #f3b56a;
     color: rgb(7, 6, 6);
     font-family: Roboto, Helvetica,sans-serif;
   
 }
 
 #background{
-    background-color: rgb(188, 169, 134);
+    background-color: #bca986;
     grid-column: 1/11;
     grid-row: 4/9;
 }
