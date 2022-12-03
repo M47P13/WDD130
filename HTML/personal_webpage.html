@@ -3,26 +3,21 @@
 <title>Index Home Page</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<link rel="stylesheet" href="test.css">
+<link rel="stylesheet" href="personal_webpage.css">
 
 <body>
   <div id="content">
     <header>
         <nav>
-          <a id="menu-link" onclick="hamburgerMenu()">& #9776;</a>
+          <a id="menu-link" onclick="hamburgerMenu()"></a>
             <ul class="menu">
                 <li><a href="index.html">Home Page</a></li>
                 <li><a href="Get_To_Know_Me.html">About Me</a></li>
                 <li><a href="Raft_Project.html">Raft Project</a></li>
-                <li class="i-am-here"><a href="Side_Project.html">Side Projects</a></li>
+                <li><a href="Side_Project.html">Side Projects</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li class="i-am-here"><a href="personal_webpage.html">Personal Webpage</a></li>
             </ul>
-            <ul class="menu-2"
-              <div class="sidenav">
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Clients</a>
-                <a href="#">Contact</a>
-              </div>
         </nav>
   </header>
   <main>
@@ -33,25 +28,95 @@
          width="400";-->
     </div>
 
-    <h1 style="background-color:#050f1b">
+    <h1 style="background-color:#d9bfbd">
 
     <br>
     <div class="row">
 </div>
 
     <div class="home-grid">
-        <h2 class="home-headline-1"> The Practice Assignments</h2>
+        <h2 class="home-headline-1"> Portfolio</h2>
         <br>
-        <b class="home-headline-2 "> Here are the different projects:</b>
+                <!--Image Gallery Digital 
+        <h3 class="home-headline-1"><a href="Get_To_Know_Me.html">Digital</a></h3>
+        <div class="home-paragraph-1">
+          <br>
+        </div>
 
-        <br>
-        <p class="home-paragraph-2">
+        <div class="home-paragraph-2">
+          <div class="row">
+            <div class="column">
+              <img src="img_nature.jpg" alt="Nature" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="img_snow.jpg" alt="Snow" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="img_mountains.jpg" alt="Mountains" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="img_lights.jpg" alt="Lights" onclick="myFunction(this);">
+            </div>
+          </div>
+          
+
+
+            <!--The expanding image container 
+          <div class="container">
+             Close the image 
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+               Expanded image
+            <img id="expandedImg" style="width:100%">
+
+              Image text 
+            <div id="imgtext"></div>
+            -->
+
+          </div>
+        </div>
+
+        <!-- Traditional header -->
+        <h2 class="home-headline-2"><a href="Get_To_Know_Me.html">Traditional</h2>
+        <!-- Image Gallery Traditional -->
+        <div class="home-paragraph-2">
+          <div class="row">
+            <div class="column">
+              <img src="Traditional_Portfolio_Images/Eye.jpg" alt="Eye Study" onclick="myFunction(this);"
+              width="200" height="200">
+            </div>
+            <div class="column">
+              <img src="Traditional_Portfolio_Images/FlowerandSpine.JPG" alt="Flower and Spine" onclick="myFunction(this);"
+              width="200" height="200">
+            </div>
+            <div class="column">
+              <img src="Traditional_Portfolio_Images/Incomplete.jpeg" alt="Mountain Range" onclick="myFunction(this);"
+              width="200" height="200">
+            </div>
+            <div class="column">
+              <img src="Traditional_Portfolio_Images/Giraffe.JPG" alt="Mutation" onclick="myFunction(this);"
+              width="200" height="200">
+            </div>
+          </div>
+
+          <!-- The expanding image container -->
+          <div class="container">
+            <!-- Close the image -->
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+            <!-- Expanded image -->
+            <img id="expandedImg" style="width:100%">
+
+            <!-- Image text -->
+            <div id="imgtext"></div>
+          </div>
+        </div>
        
-        </p>
+        </div>
   </main>
     <footer> 
     <p>
-        Why rush take a nap | 2022 | Property of | <a href="AllAssignments/Get to know you Assignment/GetToKnowYou.html">Maya Thompson</a> | WDD130-02
+        | Currently Sleeping | 2022 | Property of <a ref="Get_To_Know_Me.html">Maya Thompson</a> |<br> | WDD130-02 | 
     </p>
       <script>
           function hamburgerMenu(){
